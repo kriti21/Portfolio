@@ -1362,7 +1362,7 @@ h3 {
 .slider_area .single_slider {
   position: relative;
   z-index: 0;
-  height: 900px;
+  height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1387,6 +1387,7 @@ h3 {
   transform: translateY(-50%);
   z-index: 999;
 }
+
 
 @media (max-width: 767px) {
   /* line 21, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
@@ -1468,7 +1469,7 @@ h3 {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(../img/about/man.png);
+  /* background-image: url(../img/about/man.png); */
   width: 724px;
   height: 767px;
   content: '';
@@ -1576,11 +1577,18 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
   font-family: "Muli", sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 82px;
-  margin-bottom: 9px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .slider_area .single_slider .slider_text .my_Pic {
+    width: 100%;
+    border-radius: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2078,7 +2086,6 @@ h3 {
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .about_me {
   padding-top: 75px;
-  padding-bottom: 150px;
   position: relative;
 }
 
@@ -2158,10 +2165,6 @@ h3 {
   }
 }
 
-/* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
-.about_me .about_img .my_Pic img {
-  width: 100%;
-}
 
 /* line 66, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .project_area {
@@ -2416,8 +2419,8 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #001D38;
 }
 
@@ -3026,7 +3029,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_service.scss */
 .service_area {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 120px;
 }
 
@@ -3186,7 +3189,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 180px;
+  padding-top: 70px;
   padding-bottom: 340px;
 }
 
